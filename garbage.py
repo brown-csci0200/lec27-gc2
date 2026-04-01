@@ -1,9 +1,9 @@
 # garbage.py
 
 class Dillo:
-    def __init__(self, length: int, is_dead: bool):
+    def __init__(self, length: int, is_extinct: bool):
         self.length = length
-        self.is_dead = is_dead
+        self.is_extinct = is_extinct
 
 all_dillos = []  # ArrayList, starting length 4
 all_dillos.append(Dillo(10, True))
